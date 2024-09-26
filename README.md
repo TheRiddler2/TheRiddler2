@@ -34,10 +34,7 @@ Nothing much about myself. Feel free to use my repositories.</div>
 <a href="https://www.gnu.org/software/bash/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/gnu_bash-icon.svg" alt="Bash" height="50" /></a>  
 </div>
 
-</td><td valign="top" width="33%">
-
-<br/>  
-
+</td></tr></table>  
 
 ## Connect with me  
 <div align="center">
