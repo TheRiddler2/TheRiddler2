@@ -36,10 +36,6 @@ Nothing much about myself. Feel free to use my repositories.</div>
 
 </td><td valign="top" width="33%">
 
-
-
-</td></tr></table>  
-
 <br/>  
 
 
