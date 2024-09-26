@@ -1,8 +1,3 @@
-<div align="center">
-<img src="https://github.com/user-attachments/assets/230ef1c0-be80-4b00-b206-b8d965a97cf8" align="center" style="width: 150px; height: 150px; border-radius: 50%;" />
-
-</div>  
-  
 
 # <div align="center">Sup!👋 Anonymous here.
 
