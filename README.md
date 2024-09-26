@@ -9,7 +9,7 @@
 
 ###
 
-<img align="right" height="150" src="![profile](https://github.com/user-attachments/assets/94eac7e5-4e17-4bf5-9dbd-8dd824b62dca)"  />
+<img align="right" height="150" src="https://i.imgflip.com/65efzo.gif"  />
 
 
 ###
