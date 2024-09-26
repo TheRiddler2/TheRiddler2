@@ -72,10 +72,11 @@ Nothing much about myself. Feel free to use my repositories.</div>
 
 ----
 
-###
+
 
 <br clear="both">
 
 <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
 
-###
+
+----
