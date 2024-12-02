@@ -34,7 +34,7 @@ Nothing much about myself. Feel free to use my repositories.</div>
 
 ## Connect with me  
 <div align="center">
-<a href="https://instagram.com/z__._.1_" target="_blank">
+<a href="https://instagram.com/bl4ck.pixel" target="_blank">
 <img src=https://img.shields.io/badge/instagram-%23000000.svg?&style=for-the-badge&logo=instagram&logoColor=white alt=instagram style="margin-bottom: 5px;" />
 </a>
 <a href="https://stackoverflow.com/users/17261521" target="_blank">
