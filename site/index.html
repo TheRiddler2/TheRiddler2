@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+    <html lang="en">
+    
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The Riddler</title>
+        
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+   
+   
+    <body>
+    
+        <!-- Full-screen overlay for first visit -->
+        <div id="overlay">
+            <p>Click Anywhere</p>
+        </div>
+    
+        <!-- Main content container -->
+        <div class="container" id="main-content">
+            <img src="pfp.jpeg" alt="Profile Picture" class="pfp">
+            <p class="name">The Riddler</p>
+            <p class="quote">"A Rat with Wings."</p>
+
+            <audio autoplay loop>
+                <source src="icons/audio.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            
+            <!-- Image buttons for social links -->
+            <div class="social-buttons">
+                <a href="https://discord.com/invite/ZYDmgWnN" target="_blank">
+                    <img src="icons/discord.png" alt="Discord">
+                </a>
+                <a href="https://www.instagram.com/bl4ck.pixel/" target="_blank">
+                    <img src="icons/ig.png" alt="Instagram">
+                </a>
+                <a href="https://stackoverflow.com/users/17261521/the-riddler?tab=profile" target="_blank">
+                    <img src="icons/stackoverflow.png" alt="Stack Overflow">
+                </a>
+                <a href="https://github.com/TheRiddler2" target="_blank">
+                    <img src="icons/github.png" alt="GitHub">
+                </a>
+            </div>
+
+        </div>
+    
+        <script>
+            // JavaScript to handle the overlay click and hide
+            document.getElementById("overlay").addEventListener("click", function () {
+                this.style.display = "none"; // Hide the overlay
+                document.getElementById("main-content").style.display = "block"; // Show the main content
+            });
+    
+            // Ensure main content is hidden initially
+            document.getElementById("main-content").style.display = "none";
+        </script>
+    
+    </body>
+    
+    
+    </html>
+    

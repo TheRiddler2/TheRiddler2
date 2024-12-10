@@ -1,0 +1,98 @@
+/* Reset body margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('icons/bg.gif') no-repeat center center fixed;
+    background-size: cover; 
+    margin: 0;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+#overlay p {
+    color: white;
+    font-size: 24px;
+    font-family: "Press Start 2P", serif;
+    text-align: center;
+}
+
+
+.container {
+    text-align: center;
+    background-color: white;
+    font-weight: 400;
+    padding: 30px;
+    border-style: outset;
+    border-color: #989898;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 330px;  
+}
+
+
+.pfp {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;  
+    object-fit: cover;   
+    margin-bottom: 20px;  
+}
+
+
+.name {
+    margin-bottom: 10px;
+    font-size: 23px;
+    font-weight: bold; 
+    font-family: "Press Start 2P", serif;
+    font-weight: 400;
+    color: white;
+    margin-top: 5px;
+}
+
+
+.quote {
+    font-size: 16px;
+    font-style: italic;
+    color: white; 
+}
+
+
+.social-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.social-buttons a img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px; 
+    transition: transform 0.2s ease-in-out;
+}
+
+.social-buttons a img:hover {
+    transform: scale(1.1); 
+}
