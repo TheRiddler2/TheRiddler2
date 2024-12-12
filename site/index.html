@@ -9,20 +9,22 @@
         <link rel="icon" href="pfp.jpeg" type="image/x-icon">
         
         <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Days+One&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&family=Press+Start+2P&family=Yatra+One&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
     </head>
    
    
     <body>
     
-        <!-- Full-screen overlay for first visit -->
-        
-
-        <div id="overlay">
-            <p>Click Anywhere</p>
-        </div>
-    
         <!-- Main content container -->
+        <div class="top-bar">
+            <div class="name">The Riddler</div>
+            <div class="nav-buttons">
+                <a href="">Home</a>
+                <a href="#contact">Contact Me</a>
+            </div>
+        </div>
+
         <div class="container" id="main-content">
             <img src="pfp.jpeg" alt="Profile Picture" class="pfp">
             <p class="name">The Riddler</p>
@@ -32,37 +34,45 @@
                 <source src="icons/audio.mp3" type="audio/mpeg">
                 Your browser does not support the audio element.
             </audio>
+        </div>
             
-            <!-- Image buttons for social links -->
-            <div class="social-buttons">
-                <a href="https://discord.com/invite/ZYDmgWnN" target="_blank">
-                    <img src="icons/discord.png" alt="Discord">
-                </a>
-                <a href="https://www.instagram.com/bl4ck.pixel/" target="_blank">
-                    <img src="icons/ig.png" alt="Instagram">
-                </a>
-                <a href="https://stackoverflow.com/users/17261521/the-riddler?tab=profile" target="_blank">
-                    <img src="icons/stackoverflow.png" alt="Stack Overflow">
-                </a>
-                <a href="https://github.com/TheRiddler2" target="_blank">
-                    <img src="icons/github.png" alt="GitHub">
-                </a>
-            </div>
-            
-            <div class="cursor"></div>
+        
 
+        <div class="about">
+           <p class="greet">Hey There!</p>
+            
+           <p class="info">
+                I’m The Riddler, an open-source enthusiast dedicated to creating free apps for everyone. With a passion for coding and innovation, I specialize in Python, HTML, CSS, and C++. I also dive into Arduino projects, blending software and hardware to bring ideas to life. Let’s build something amazing together!
+            </p>
+
+            <!-- Image buttons for social links -->
+        <div class="social-buttons">
+            <a href="https://discord.com/invite/ZYDmgWnN" target="_blank">
+             <img src="icons/discord.png" alt="Discord">
+            </a>
+                
+            <a href="https://www.instagram.com/bl4ck.pixel/" target="_blank">
+                <img src="icons/ig.png" alt="Instagram">
+            </a>
+                
+            <a href="https://stackoverflow.com/users/17261521/the-riddler?tab=profile" target="_blank">
+                <img src="icons/stackoverflow.png" alt="Stack Overflow">
+            </a>
+                
+            <a href="https://github.com/TheRiddler2" target="_blank">
+                <img src="icons/github.png" alt="GitHub">
+            </a>
+            
+        </div>
+
+        </div>
+
+
+        </div>
+            <div class="cursor"></div>
         </div>
     
         <script>
-            // JavaScript to handle the overlay click and hide
-            document.getElementById("overlay").addEventListener("click", function () {
-                this.style.display = "none"; // Hide the overlay
-                document.getElementById("main-content").style.display = "block"; // Show the main content
-            });
-    
-            // Ensure main content is hidden initially
-            document.getElementById("main-content").style.display = "none";
-
             // Cursor Related
             const cursor = document.querySelector('.cursor');
 
