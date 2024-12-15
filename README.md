@@ -1,7 +1,9 @@
 
-# <div align="center">Hey there 👋! The Riddler here.
+# <div align="center">Hey there 👋!
 
-Nothing much about myself. Feel free to use my repositories.</div>  
+I’m The Riddler, an open-source enthusiast dedicated to creating free apps for everyone. With a passion for coding and innovation, I specialize in Python, HTML, CSS, and C++. I also dive into Arduino projects, blending software and hardware to bring ideas to life. Feel free to use my repositories.
+
+</div>  
   
 
 <br/>  
