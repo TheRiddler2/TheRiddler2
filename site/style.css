@@ -5,7 +5,6 @@
     box-sizing: border-box;
 }
 
-
 body {
     font-family: Arial, sans-serif;
     background: url("icons/bg.png");
@@ -27,8 +26,8 @@ body::before {
     bottom: 0;
     background: url('icons/bg.png') no-repeat center center fixed;
     background-size: cover; 
-    filter: blur(8px); /* Adjust the blur intensity */
-    z-index: -1; /* Place behind the content */
+    filter: blur(8px);
+    z-index: -1;
 }
 
 .top-bar {
@@ -137,17 +136,16 @@ body::before {
 }
 
 p {
-  color: white;
-  font-family: 'arial';
-  text-align: center;
-  margin-top: 50px;
-  font-size: 1.4em;
-  
-  a {
-    color: teal;
-  }
+    color: white;
+    font-family: 'arial';
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.4em;
 }
 
+p a {
+    color: teal;
+}
 
 .container {
     text-align: center;
@@ -160,11 +158,10 @@ p {
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: rgba(255, 255, 255, 0.2);
-    width: 800px;  
+    width: 800px;
     margin-top: 20px;
     height: 400px;
 }
-
 
 .pfp {
     width: 150px;
@@ -173,7 +170,6 @@ p {
     object-fit: cover;   
     margin-bottom: 20px;  
 }
-
 
 .name {
     margin-bottom: 10px;
@@ -184,7 +180,6 @@ p {
     color: #31b501;
     margin-top: 5px;
 }
-
 
 .quote {
     font-size: 16px;
@@ -212,7 +207,6 @@ p {
     padding-bottom: 110px;
     padding-right: 100px;
     padding-left: 10px;
-    
 }
 
 .social-buttons {
@@ -223,7 +217,6 @@ p {
     position: relative;
     padding-left: 310px;
     margin-top: -80px;
-
 }
 
 .social-buttons a img {
@@ -236,4 +229,124 @@ p {
 .social-buttons a img:hover {
     transform: scale(1.1);
     cursor: none;
+}
+
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    .container {
+        width: 90%;
+        transform: none;
+        margin: 20px auto;
+        height: auto;
+    }
+
+    .top-bar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .about .greet {
+        font-size: 30px;
+        padding-left: 10px;
+    }
+
+    .about .info {
+        margin-left: 0;
+        margin-right: 0;
+        padding: 10px;
+    }
+
+    .social-buttons {
+        flex-wrap: wrap;
+        padding-left: 0;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .social-buttons a img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+
+/* Mobile Responsive Fixes */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        height: auto;
+        padding: 30px;
+        transform: none;
+        margin: 20px auto;
+    }
+
+    .about {
+        padding-left: 0;
+    }
+
+    .about .greet {
+        font-size: 30px;
+        padding-left: 0;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .about .info {
+        margin: 0 20px;
+        padding: 0 10px 50px;
+        text-align: justify;
+        font-size: 1em;
+    }
+
+    .social-buttons {
+        padding-left: 0;
+        justify-content: center;
+        margin-top: -30px;
+        padding-bottom: 30px;
+    }
+
+    .top-bar {
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    .top-bar .name {
+        margin-bottom: 10px;
+    }
+
+    .pfp {
+        width: 120px;
+        height: 120px;
+    }
+
+    .quote {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .top-bar .nav-buttons {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .top-bar .nav-buttons a {
+        font-size: 0.9em;
+        padding: 5px 10px;
+    }
+    
+    .about .greet {
+        font-size: 24px;
+    }
+    
+    .social-buttons a img {
+        width: 40px;
+        height: 40px;
+    }
 }
